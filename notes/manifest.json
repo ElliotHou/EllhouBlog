@@ -1,0 +1,9 @@
+[
+  {
+    "title": "示例笔记",
+    "file": "example.md",
+    "date": "2026-05-12",
+    "tags": ["博客", "Markdown"],
+    "description": "用于展示笔记列表、正文渲染和小标题侧栏。"
+  }
+]
