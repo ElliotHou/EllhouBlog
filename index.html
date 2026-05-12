@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人博客</title>
+    <meta
+      name="description"
+      content="一个支持 GitHub Pages 部署、Markdown 笔记阅读和小标题侧栏导航的个人博客。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="返回首页">
+        <span class="brand-mark">B</span>
+        <span>
+          <strong>个人博客</strong>
+          <small>Notes on GitHub</small>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="主导航">
+        <a href="#notes">笔记</a>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main class="layout">
+      <aside class="note-panel" aria-label="笔记列表">
+        <div class="panel-heading">
+          <p>Notes</p>
+          <h1>Markdown 笔记</h1>
+        </div>
+        <label class="search">
+          <span class="sr-only">搜索笔记</span>
+          <input id="note-search" type="search" placeholder="搜索标题、标签或摘要" />
+        </label>
+        <div id="note-list" class="note-list" role="list"></div>
+      </aside>
+
+      <article class="reader" id="notes">
+        <div id="note-meta" class="note-meta"></div>
+        <div id="markdown-body" class="markdown-body" tabindex="-1">
+          <div class="empty-state">
+            <h2>选择一篇笔记开始阅读</h2>
+            <p>把新的 Markdown 文件放进 <code>notes/</code>，再更新 <code>notes/manifest.json</code> 即可发布。</p>
+          </div>
+        </div>
+      </article>
+
+      <aside class="toc-panel" aria-label="小标题目录">
+        <div class="toc-card">
+          <p class="toc-title">小标题</p>
+          <nav id="toc" class="toc"></nav>
+        </div>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
