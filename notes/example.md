@@ -36,8 +36,14 @@ console.log(note);
 
 推送到 GitHub 后，可以使用 GitHub Pages 发布这个静态站点。仓库设置里选择 Pages 来源为 `main` 分支，目录选择根目录即可。
 
+## 注意
+当前序号无法正确显示，序号需要隔一行，如下
+
 ## 简要概括
 1. 修改/添加note，放在 `notes/` 目录
-2. 在 `notes/manifest.json` 中新增登记
-3. 在note目录里执行git add . 与git push
+   
+2. 若有新笔记，在 `notes/manifest.json` 中新增登记即可
+   
+3. 在note目录里执行git add . 与 git commit -m "" 与git push
+   
 4. 访问https://elliothou.github.io/EllhouBlog
