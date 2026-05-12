@@ -1,6 +1,7 @@
 # 示例笔记
 
-这是一篇示例 Markdown 笔记。你可以把自己的 `.md` 文件放到 `notes/` 目录，然后在 `notes/manifest.json` 中登记标题、文件名、日期、标签和摘要。
+这是一篇示例 Markdown 笔记。
+你可以把自己的 `.md` 文件放到 `notes/` 目录，然后在 `notes/manifest.json` 中登记标题、文件名、日期、标签和摘要。
 
 ## 写作方式
 
@@ -34,3 +35,9 @@ console.log(note);
 ## 发布
 
 推送到 GitHub 后，可以使用 GitHub Pages 发布这个静态站点。仓库设置里选择 Pages 来源为 `main` 分支，目录选择根目录即可。
+
+## 简要概括
+1. 修改/添加note，放在 `notes/` 目录
+2. 在 `notes/manifest.json` 中新增登记
+3. 在note目录里执行git add . 与git push
+4. 访问https://elliothou.github.io/EllhouBlog

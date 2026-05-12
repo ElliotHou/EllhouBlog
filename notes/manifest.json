@@ -5,5 +5,12 @@
     "date": "2026-05-12",
     "tags": ["博客", "Markdown"],
     "description": "用于展示笔记列表、正文渲染和小标题侧栏。"
+  },
+  {
+    "title": "八股",
+    "file": "八股.md",
+    "date": "2026-05-12",
+    "tags": ["八股", "Markdown"],
+    "description": "用于记录应聘面试常见的八股问题。"
   }
 ]
